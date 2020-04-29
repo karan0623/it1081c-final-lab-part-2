@@ -1,0 +1,36 @@
+[ 1583866834.734958]: IMSettings-Daemon[2160]: INFO: Starting imsettings-daemon...
+[ 1583866834.735068]: IMSettings-Daemon[2160]: INFO:   [HOME=/home/user/.config/imsettings]
+[ 1583866834.735109]: IMSettings-Daemon[2160]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1583866834.735143]: IMSettings-Daemon[2160]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1583866834.735174]: IMSettings-Daemon[2160]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1583866834.735208]: IMSettings-Daemon[2160]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: N/A
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-5I6qJgFnt9,guid=bb5f8c37b5aa3e654a7affb25e67e3d2
+GTK_IM_MODULE: 
+QT_IM_MODULE: 
+XMODIFIERS: 
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+org.gnome.SettingsDaemon.Keyboard.desktop exists. imsettings is going to be disabled.
+[ 1588009727.911070]: IMSettings-Daemon[2160]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1588009727.939284]: GLib-GIO[2160]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1588009727.939409]: GLib-GIO[2160]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1588009727.939532]: IMSettings-Daemon[2160]: INFO: Unloading imesttings module: gsettings
+[ 1588009727.965423]: IMSettings-Daemon[2160]: INFO: imsettings-daemon is shut down.
